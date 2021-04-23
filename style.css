@@ -62,7 +62,10 @@ h1{
 
 }
 .blocksWeight{
-    color: blanchedalmond;
+    width: 20vh;
+    height: 10vh;
+    background-color: #1e2127;
+    color: rgb(255, 255, 255);
 }
 .item {
     margin: 1vh;

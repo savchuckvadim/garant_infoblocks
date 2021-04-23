@@ -1,7 +1,7 @@
 
 const d = document;
 const result = d.getElementById('result'); //кнопка результата
-const blocksWeight = d.getElementsByClassName('blocksWeight'); // Результат вес
+const blocksWeight = d.getElementById('blocksWeight'); // Результат вес
 
 const menu = d.getElementById('menu'); // все чекбоксы в гридах
 const menuD = d.getElementById('menuDescript'); // ВСЁ Описание
@@ -119,7 +119,7 @@ function resultList (){
 }
 function totalwWight(){ // подставляет сумму веса
     console.log(`${weight} подставляет сумму веса weight`);
-        blocksWeight.innerText = `Вес:  ${weight}`;
+        blocksWeight.innerText = `Вес комплекта:  ${weight}`;
 
 }
 
@@ -270,10 +270,10 @@ enPaket3.onclick = function() {  // 3
 law.onchange = function(){
     if(law.checked == true){
         lawD.style.display = "block";
-    console.log('hallou');
+    
     }else{
         lawD.style.display = "none";
-        console.log('ou');
+        
     }
 }
 
@@ -283,12 +283,11 @@ law.onchange = function(){
         
         if(a.checked == true){
         b.style.display = "block";
-        console.log(a);
+        
     console.log('hallou');
     }else{
         b.style.display = "none";
-        console.log('ou');
-        console.log(a);
+        
     }}
 //НПА
     stav.onchange = function(){
