@@ -162,7 +162,7 @@ let legal8D = d.getElementById('fortyfive');   //Гарант Патент
 let legal9 = d.getElementById('46');   //Интернет-Семианры
 let legal9D = d.getElementById('fortysix');   //Интернет-Семианры
 
-let legal10 = d.getElementById('46');   //ЭТАЛОННЫЙ КЛАССИФИКАТОР
+let legal10 = d.getElementById('47');   //ЭТАЛОННЫЙ КЛАССИФИКАТОР
 let legal10D = d.getElementById('fortyseven');   //ЭТАЛОННЫЙ КЛАССИФИКАТОР
 
 

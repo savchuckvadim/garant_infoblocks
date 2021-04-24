@@ -18,7 +18,7 @@ top: 0;
 height: 20vh;
 min-width: 100vh;
 display: flex;
-justify-content: space-around;
+justify-content: flex-start;
 
 
 
@@ -36,16 +36,23 @@ h1{
 }
 
 .header__container__logo{
-   width: 40vh;
+   width: 50vh;
     margin: 0 auto;
+    margin-left: 7vh;
     display: flex;
+    
     
     
 }
 .logo__link{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    
+    
+}
+.logo{
+    width: 80%;
+      
+    height: auto;
 }
 
 .header__container__result{
@@ -57,12 +64,7 @@ h1{
     
 
 }
-.logo{
-    width: 80%;
-    
 
-    height: auto;
-}
 
 .result{
     margin: 0 auto;
