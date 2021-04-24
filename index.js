@@ -99,6 +99,71 @@ let paket1 = document.getElementsByClassName('paket1'); // чекбоксы с �
 let paket2 = document.getElementsByClassName('paket2');  // чекбоксы с классом Пакет2 - входящие в пакет ЭР 2
 let paket3 = document.getElementsByClassName('paket3');  // чекбоксы с классом Пакет3 - входящие в пакет ЭР 3
 
+//Дополнительно
+let archive = d.getElementById('26');   //Архивы ГАРАНТа
+let archiveD = d.getElementById('twentysix');    //Архивы ГАРАНТа
+let prime = d.getElementById('27');                 //ПРАЙМ
+let primeD = d.getElementById('twentyseven');        //ПРАЙМ
+let litigation = d.getElementById('28');              //Судебная практика: приложение кконсультационным блокам
+let litigationD = d.getElementById('twentyeight');      //Судебная практика: приложение кконсультационным блокам
+let home = d.getElementById('29');                      //Большая домашняя правовая энциклопедия
+let homeD = d.getElementById('twentynine');             //Большая домашняя правовая энциклопедия
+
+//Специализированные блоки
+let vocabulary = d.getElementById('30');           //Толковый словарь «Бизнес и право»
+let vocabularyD = d.getElementById('thirty');          //Толковый словарь «Бизнес и право»
+let schemes = d.getElementById('31');                 //Энциклопедия. Законодательство в схемах
+let schemesD = d.getElementById('thirtyone');   //Энциклопедия. Законодательство в схемах
+let forms = d.getElementById('32');            //Энциклопедия. Формы правовых документов
+let formsD = d.getElementById('thirtytwo');     //Энциклопедия. Формы правовых документов     
+let infarm = d.getElementById('33');            // ГАРАНТ-Инфарм
+let infarmD = d.getElementById('thirtythree');   // ГАРАНТ-Инфарм
+let technic = d.getElementById('34');           //Справочник нормативно-технической документации по строительству
+let technicD = d.getElementById('thirtyfour');   //Справочник нормативно-технической документации по строительству
+
+
+
+//Пакет услуг правового консалтинга
+
+let hot = d.getElementById('35');  //Горячая Линия
+let hotВ = d.getElementById('thirtyfive');   //Горячая Линия
+let expert = d.getElementById('36');   //Советы Экспертов
+let expertD = d.getElementById('thirtysix');   //Советы Экспертов
+let consalt = d.getElementById('37');   //Правовой консалтинг. Премиум
+let consaltD = d.getElementById('thirtyseven');   //Правовой консалтинг. Премиум
+
+//Сервисный пакет Legal Tech
+
+let legal1 = d.getElementById('38');
+let legal1D = d.getElementById('thirtyeight');
+
+let legal2 = d.getElementById('39');
+let legal2D = d.getElementById('thirtynine');
+
+let legal3 = d.getElementById('40');
+let legal3D = d.getElementById('forty');
+
+let legal4 = d.getElementById('41');
+let legal4D = d.getElementById('fortyone');
+
+let legal5 = d.getElementById('42');
+let legal5D = d.getElementById('fortytwo');
+
+let legal6 = d.getElementById('43');
+let legal6D = d.getElementById('fortythree');
+
+let legal7 = d.getElementById('44');
+let legal7D = d.getElementById('fortyfour');
+
+let legal8 = d.getElementById('45');
+let legal8D = d.getElementById('fortyfive');
+
+
+let legal9 = d.getElementById('46');
+let legal9D = d.getElementById('fortysix');
+
+
+
 
 
 function resultList (){
@@ -199,7 +264,7 @@ lib.addEventListener('click', function(){
 
 })
 
-
+console.log(paket1[1].checked);
 
     /**Энциклопедии решений - по пакетам */
 for(let i=0; i<paket1.length; i++) {
@@ -253,14 +318,6 @@ enPaket3.onclick = function() {  // 3
     enPaket2.checked = false; 
     enPaket1.checked = false;
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -351,7 +408,7 @@ law.onchange = function(){
 
    //Энциклопедии решений - если по ним кликали
 
-   encyclopedia1.onchange = function(){
+encyclopedia1.onchange = function(){
     descri(encyclopedia1, encyclopedia1D);
 
 }
