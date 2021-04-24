@@ -134,35 +134,36 @@ let consaltD = d.getElementById('thirtyseven');   //Правовой конса�
 
 //Сервисный пакет Legal Tech
 
-let legal1 = d.getElementById('38');
-let legal1D = d.getElementById('thirtyeight');
+let legal1 = d.getElementById('38'); //Аналитическая система "Сутяжник"
+let legal1D = d.getElementById('thirtyeight');  //Аналитическая система "Сутяжник"
 
-let legal2 = d.getElementById('39');
-let legal2D = d.getElementById('thirtynine');
+let legal2 = d.getElementById('39');   //Конструктор правовых документов
+let legal2D = d.getElementById('thirtynine');   //Конструктор правовых документов
 
-let legal3 = d.getElementById('40');
-let legal3D = d.getElementById('forty');
+let legal3 = d.getElementById('40');   //Экспресс проверка контрагентов
+let legal3D = d.getElementById('forty');   //Экспресс проверка контрагентов
 
-let legal4 = d.getElementById('41');
-let legal4D = d.getElementById('fortyone');
+let legal4 = d.getElementById('41');   //Экспресс Согласование
+let legal4D = d.getElementById('fortyone');   //Экспресс Согласование
 
-let legal5 = d.getElementById('42');
-let legal5D = d.getElementById('fortytwo');
+let legal5 = d.getElementById('42');   // Экспресс тендер
+let legal5D = d.getElementById('fortytwo');   // Экспресс тендер
 
-let legal6 = d.getElementById('43');
-let legal6D = d.getElementById('fortythree');
+let legal6 = d.getElementById('43');   //Гарант Диск
+let legal6D = d.getElementById('fortythree');   //Гарант Диск
 
-let legal7 = d.getElementById('44');
-let legal7D = d.getElementById('fortyfour');
+let legal7 = d.getElementById('44');   //Гарант Коннект
+let legal7D = d.getElementById('fortyfour');   //Гарант Коннект
 
-let legal8 = d.getElementById('45');
-let legal8D = d.getElementById('fortyfive');
-
-
-let legal9 = d.getElementById('46');
-let legal9D = d.getElementById('fortysix');
+let legal8 = d.getElementById('45');   // Гарант Патент
+let legal8D = d.getElementById('fortyfive');   //Гарант Патент
 
 
+let legal9 = d.getElementById('46');   //Интернет-Семианры
+let legal9D = d.getElementById('fortysix');   //Интернет-Семианры
+
+let legal10 = d.getElementById('46');   //ЭТАЛОННЫЙ КЛАССИФИКАТОР
+let legal10D = d.getElementById('fortyseven');   //ЭТАЛОННЫЙ КЛАССИФИКАТОР
 
 
 
@@ -405,6 +406,86 @@ law.onchange = function(){
         descri(lib3, lib3D);
     }
 
+    //Дополнительно
+    archive.onchange = function(){
+        descri(archive, archiveD);
+    }
+    prime.onchange = function(){
+        descri(prime, primeD);
+    }
+    litigation.onchange = function(){
+        descri(litigation, litigationD);
+    }
+    home.onchange = function(){
+        descri(home, homeD);
+    }
+    //Специализированные блоки
+
+    vocabulary.onchange = function(){
+        descri(vocabulary, vocabularyD);
+    }
+    schemes.onchange = function(){
+        descri(schemes, schemesD);
+    }
+    forms.onchange = function(){
+        descri(forms, formsD);
+    }
+    infarm.onchange = function(){
+        descri(infarm, infarmD);
+    }
+    technic.onchange = function(){
+        descri(technic, technicD);
+    }
+
+
+
+     //Пакет услуг правового консалтинга
+
+     hot.onchange = function(){
+        descri(hot, hotD);
+    }
+    expert.onchange = function(){
+        descri(expert, expertD);
+    }
+    consalt.onchange = function(){
+        descri(consalt, consaltD);
+    }
+
+
+
+
+     //Сервисный пакет Legal Tech
+
+     legal1.onchange = function(){
+        descri(legal1, legal1D);
+    }
+    legal2.onchange = function(){
+        descri(legal2, legal2D);
+    }
+    legal3.onchange = function(){
+        descri(legal3, legal3D);
+    }
+    legal4.onchange = function(){
+        descri(legal4, legal4D);
+    }
+    legal5.onchange = function(){
+        descri(legal5, legal5D);
+    }
+    legal6.onchange = function(){
+        descri(legal6, legal6D);
+    }
+    legal7.onchange = function(){
+        descri(legal7, legal7D);
+    }
+    legal8.onchange = function(){
+        descri(legal8, legal8D);
+    }
+    legal9.onchange = function(){
+        descri(legal9, legal9D);
+    }
+    legal10.onchange = function(){
+        descri(legal10, legal10D);
+    }
 
    //Энциклопедии решений - если по ним кликали
 
