@@ -1,186 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link media="print" href="print.css" />
-
-    <link rel="icon" href="./img/logo-icon-solid.svg">
-
+    
     <title>Document</title>
 </head>
-
 <body>
-    <header>
-        <div class="header__container__logo">
-            <a class="logo__link" href="/1.html">
-                <img class="logo" src="./img/logo-icon-solid-horizontal.svg" alt="logo">
-            </a>
-        </div>
-        <div class="header__container__result">
-            <p id="complect__name" class="result blocksWeight">Наименование комплекта</p>
-            <p id="blocksWeight" class="result blocksWeight"></p>
-            <p id="pod" class="result blocksWeight"></p>
-            <p id="complect__price" class="result blocksWeight"></p>
-           
-        </div>
-        
-        <div class="header__container__result">
-            <a href="#"><input id="result" class="result" type="button" value="Результат"></a>
-            
-        </div>
-        
-        
-    </header>
-
     <main>
-        <div class="complect__container">
-            
-            <select name="complect" id="complect">
-                <option id="complect0" value="" selected>Наименование комплекта</option>
-                <option id="complect1" value="Гарант-Бухгалтер" >Гарант-Бухгалтер</option>
-                <option id="complect2" value="Гарант-Бухгалтер госсектора">Гарант-Бухгалтер госсектора</option>
-                <option id="complect3" value="Гарант-Юрист">Гарант-Юрист</option>
-                <option id="complect4" value="Гарант-Главный Бухгалтер">Гарант-Главный Бухгалтер</option>
-                <option value="Гарант-Главный Бухгалтер госсектора">Гарант-Главный Бухгалтер госсектора</option>
-                <option value="Гарант-Предприятие">Гарант-Предприятие</option>
-            </select>
-            <select name="od" id="od">
-                <option value="1">1 Одновременный доступ</option>
-                <option value="2">2 Одновременных доступа</option>
-                <option value="3">3 Одновременных доступа</option>
-                <option value="5">5 Одновременных доступа</option>
-                <option value="10">10 Одновременных доступа</option>
-                <option value="20">20 Одновременных доступа</option>
-                <option value="30">30 Одновременных доступа</option>
-                <option value="50">50 Одновременных доступа</option>
-            </select>
-
-        </div>
-        <div id="menu" class="grid-wrapper1">
-            <div class="grid-item item">
-                <h2>Нормативно-правовые акты</h2>
-                <p><label> <input class="small block" id="1" type="checkbox" name="checkbox[1]" value="1" checked>
-                        Законодательство России</label></p>
-                <p><label id = "stav"> <input class="small block" id="2" type="checkbox" name="checkbox[2]" value="2"> Законодательство
-                        Ставропольского края и КМВ или Законодательство РСО Алания</label></p>
-                <p> <label> <input class="big block" id="3" type="checkbox" name="checkbox[3]" value="3"> Отраслевое
-                        законодательство</label></p>
-                <p> <label> <input class="small block" id="4" type="checkbox" name="checkbox[4]" value="4"> Проекты
-                        законов</label></p>
-                <p><label> <input class="small block" id="5" type="checkbox" name="checkbox[5]" value="5"> Международное
-                        право</label></p>
-                <p><label> <input class="big block" id="6" type="checkbox" name="checkbox[6]" value="6"> ГОСТы Росии</label>
-                </p>
-                <p><label> <input class="big block" id="7" type="checkbox" name="checkbox[7]" value="7"> Решения Федеральной
-                        антимонопольной службы</label></p>
-            </div>
-
-            <div class="grid-item item">
-                <h2>Судебная Практика</h2>
-                <p> <label id="l8"><input id="8" class="big block" type="checkbox" name="checkbox[8]" value="8"> Практика высших судебных органов</label></p>
-                <p> <labe id="l9"><input  id="9"   class="big block" type="checkbox" name="checkbox[9]" value="9"> Практика арбитражных судов округов</label></p>
-                <p> <label id="l10"><input id="10"   class="big block" type="checkbox" name="checkbox[10]" value="10"> Практика апелляционных судов округов</label></p>
-                <p> <label id="l11"><input id="11"  class="big block" type="checkbox" name="checkbox[11]" value="11"> Практика судов общей юрисдикции</label></p>
-                <p> <label id="l12"><input id="12"  class="small block" type="checkbox" name="checkbox[12]" value="12"> Энциклопедия судебной практики. Правовые позиции судов</label></p>
-        
-            </div>
-            <div class="grid-item item">
-        
-                <h2>Консультационные материалы</h2>
-                <p><label id="l13" ><input id="13" class="big block" type="checkbox" name="checkbox[13]" value="13"> Большая библиотека юриста</label></p>
-        
-                <p><label id="l14"><input id="14" class="big gb gbg block" type="checkbox" name="checkbox[14]" value="14"> Большая библиотека бухгалтера и кадрового работника</label></p>
-                <p><label id="l15"><input id="15" class="small block" type="checkbox"  name="checkbox[15]" value="15"> Библиотека консультаций. Бухгалтерия предприятия</label> </p>
-                <p><label id="l16"><input id="16" class="small block" type="checkbox"  name="checkbox[16]" value="16">  Библиотека консультаций. Бюджетные организации</label></p>
-                <p><label id="l17"><input id="17" class="small block" type="checkbox"  name="checkbox[17]" value="17">  Библиотека консультаций. Кадры</label></p>
-            </div>
-            
-            <span class="inputencyclopedii">
-
-            <div class="grid-item item">
-
-                <h2>Пакет энциклопедий решений</h2>
-                <p><label><input id="encyclopedia_paket_1" class="block" type="checkbox" name="checkbox[28]" value="22">Пакет Энциклопедий решений для бухгалтера</label></p>
-
-                <p><label><input id="encyclopedia_paket_2" class="block" type="checkbox" name="checkbox[29]" value="22">Пакет Энциклопедий решений для бухгалтера госсектора</label></p>
-                <p><label><input id="encyclopedia_paket_3" class="block" type="checkbox" name="checkbox[30]" value="22">Пакет Энциклопедийрешений для юриста</label></p>
-
-
-
-            </div>
-            <div class="grid-item item">
-                <h2>Энциклопедии решений</h2>
-                <p><label><input id="encyclopedia_1" class="block" type="checkbox" name="checkbox[23]" value="1"> Энциклопедия решений. Проверки организаций и предпринимателей</label></p>
-                <p><label><input id="encyclopedia_2" class="block" type="checkbox" name="checkbox[24]" value="1"> Энциклопедия решений. Госсектор: учет, отчетность, финконтроль</label></p>
-                <p><label><input id="encyclopedia_3" class="block" type="checkbox" name="checkbox[25]" value="1"> Энциклопедия решений. Хозяйственные ситуации</label></p>
-                <p><label><input id="encyclopedia_4" class="block paket3" type="checkbox" name="checkbox[26]" value="1"> Энциклопедия решений. Госзакупки</label></p>
-                <p><label><input id="encyclopedia_5" class="block paket2 paket3" type="checkbox" name="checkbox[27]" value="1"> Энциклопедия решений. Трудовые отношения. Кадры</label></p>
-                <p><label><input id="encyclopedia_6" class="block paket2" type="checkbox" name="checkbox[28]" value="1"> Энциклопедия решений. Налоги и взносы</label></p>
-                <p><label><input id="encyclopedia_7" class="block paket2 paket3" type="checkbox"name="checkbox[29]" value="1"> Энциклопедия решений. Договоры и иные сделки</label></p>
-                <p><label><input id="encyclopedia_8" class="block  paket3" type="checkbox" name="checkbox[30]" value="1"> Энциклопедия решений. Корпоративное право</label></p>
-            </div>
-
-            
-        </span>
-
-        <div class="grid-item item">
-
-            <h2>Специализированные блоки</h2>
-            <p><label id="l18"><input id="18" class="block" type="checkbox" name="checkbox[18]" value="30"> Толковый словарь «Бизнес и право»</label></p>
-            <p><label id="l19"><input id="19" class="block" type="checkbox" name="checkbox[19]" value="31"> Энциклопедия. Законодательство в схемах</label></p>
-            <p><label id="l20"><input id="20" class="block" type="checkbox" name="checkbox[20]" value="32"> Энциклопедия. Формы правовых документов</label></p>
-            <p><label id="l21"><input id="21" class="block" type="checkbox" name="checkbox[21]" value="33"> ГАРАНТ-Инфарм</p>
-            <p><label id="l22"><input id="22" class="block" type="checkbox" name="checkbox[22]" value="34"> Справочник нормативно-технической документации по строительству</label></p>
-    
-    
-    
-        </div>
-        <div class="grid-item item">
-            <h2>Пакет услуг правового консалтинга</h2>
-            
-            <p><label id="l23"><input id="23" class="block" type="checkbox" name="checkbox[28]" value="35"> Горячая Линия</label></p>
-            <p><label id="l24"><input id="24" class="block" type="checkbox" name="checkbox[29]" value="36"> Советы Экспертов</label></p>
-            <p><label id="l25"><input id="25" class="block" type="checkbox" name="checkbox[30]" value="37"> Правовой консалтинг. Премиум</label></p>
-    
-        </div>
-    
-        <div class="grid-item item">
-    
-            <h2>Дополнительно</h2>
-            <p><input id="26" type="checkbox" name="checkbox[28]" value="26"> Архивы ГАРАНТа</p>
-            <p><input id="27" type="checkbox" name="checkbox[29]" value="27"> ПРАЙМ</p>
-            <p><input id="28" type="checkbox" name="checkbox[30]" value="28"> Судебная практика: приложение кконсультационным блокам</p>
-            <p><input id="29" type="checkbox" name="checkbox[30]" value="29"> Большая домашняя правовая энциклопедия</p>
-        </div>
-    
-        <div class="grid-item item">
-            <h2>Сервисный пакет Legal Tech</h2>
-            
-            <p><input id="30" class="lt" type="checkbox" name="checkbox[28]" value="Аналитическая система Сутяжник"> Аналитическая система "Сутяжник"</p>
-            <p><input id="31" class="lt block" type="checkbox" name="checkbox[29]" value="Конструктор правовых документов"> Конструктор правовых документов</p>
-            <p><input id="32" class="lt" type="checkbox" name="checkbox[30]" value="Экспресс проверка контрагентов"> Экспресс проверка контрагентов</p>
-            <p><input id="33" class="lt" type="checkbox" name="checkbox[28]" value="Экспресс Согласование"> Экспресс Согласование</p>
-            <p><input id="34" class="lt" type="checkbox" name="checkbox[29]" value="Экспресс тендер"> Экспресс тендер</p>
-            <p><input id="35" class="lt" type="checkbox" name="checkbox[30]" value="Гарант Диск"> Гарант Диск</p>
-            <p><input id="36" class="lt" type="checkbox" name="checkbox[28]" value="Гарант Коннект"> Гарант Коннект</p>
-            <p><input id="37" class="lt" type="checkbox" name="checkbox[29]" value="Гарант Патент"> Гарант Патент</p>
-            <p><input id="38" class="lt" type="checkbox" name="checkbox[30]" value="Интернет-Семианры"> Интернет-Семианры</p>
-            <p><input id="39" class="lt" type="checkbox" name="checkbox[30]" value="ЭТАЛОННЫЙ КЛАССИФИКАТОР"> ЭТАЛОННЫЙ КЛАССИФИКАТОР</p>
-        </div>
-        <div class="grid-item item">
-            <p id="complect__lt" class="result blocksWeight"></p>
-
-        </div>
-            
-        </div> 
-
-
-
-
         <div id="menuDescript" class="grid-wrapper2">
             <div id="one" class="one">
                 <h2>Законодательство России</h2>
@@ -1096,25 +924,6 @@
 
 
         </div>
-        
     </main>
-
-    <script type="module" src="/complect.js"></script>
-    <script type="module" src="/infoblocks.js"></script>
-    <script type="module" src="/er.js"></script>
-
-    
-    
-    <script type="module" src="/paketer.js"></script>
-    <script type="module" src="/od.js"></script>
-    <script type="module" src="/price.js"></script>
-    <script type="module" src="/complectname.js"></script>
-    <script type="module" src="/librarys.js"></script>
-    <script type="module" src="/resultdescription.js"></script>
-
-    
-    
-    
 </body>
-
 </html>

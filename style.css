@@ -68,14 +68,15 @@ h1{
 
 .result{
     margin: 0 auto;
-    width: 20vh;
-    height: 10vh;
+    width: 15vh;
+    height: 5vh;
     
     border-color: black;
    
 
 }
 .blocksWeight{
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,6 +84,36 @@ h1{
     background-color: #1e2127;
     color: rgb(255, 255, 255);
 }
+
+.complect__container{
+    margin: 0 auto;
+    min-width: 80%;
+    width: 90%;
+    height: 5vh;
+    background-color:  #1e2127;
+     color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+}
+#complect, #od{
+    margin-right: 10vh;
+    margin-left: 10vh;
+    background-color:  #1e2127;
+    color: rgb(255, 255, 255);
+    border-style: none;
+}
+#complect1{
+    border-style: none;
+    background-color:  #0055ff;
+
+}
+
+#complect__name{
+    width: 70vh;
+    font-size: x-large;
+    color: rgb(255, 255, 255);
+}
+
 .item {
     margin: 1vh;
     
